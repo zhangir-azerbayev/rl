@@ -1,0 +1,101 @@
+\documentclass{article}
+
+\input{preamble}
+
+\title{Reinforcement Learning\\\large CS280 Plan}
+\author{Zhangir Azerbayev}
+\date{Spring 2023}
+
+\begin{document}
+    \maketitle
+
+    \begin{itemize}
+        \item[]\textbf{Supervisor:} Prof. Dragomir Radev
+        \item[]\textbf{Meetings: } Weekly on Wednesdays
+    \end{itemize}
+
+    \section{Course Description}
+    The subject of this course is reinforcement learning (RL) and its applications. A strong background in machine learning, especially deep learning, is assumed. This course will have two phases: the first will cover classical topics in the theory of RL, such as Markov decision processes, dynamic programming, Monte Carlo methods, temporal-difference learning, and policy gradient methods. The second phase of the course will study recent papers in deep reinforcement learning on topics such as game playing, applications in discrete optimization, and RL from human feedback. 
+
+    \section{Qualifications and Academics Goals}
+    The student is prepared for this study due to his background in algorithms (CPSC366), machine learning (CPSC481, MATH322), and deep learning (from research in the LILY lab). The goal of this course is to prepare the student for graduate study in machine learning.  
+
+\section{Course Aims}
+\begin{itemize}
+    \item Understand the mathematical foundations of RL. 
+    \item Understand the taxonomy of canonical RL algorithms and their strengths and weaknesses. 
+    \item Be able to implement classical RL algorithms (e.g dynamic programming). 
+    \item Be prepared for research in deep RL. 
+\end{itemize}
+
+\section{Syllabus}
+{\bf Textbook:} {\it Reinforcement Learning: An Introduction}, Richard Sutton and Andrew Barto (2nd edition)
+
+{\bf Final Project:} Student will either replicate the main findings of a recent research paper in deep RL, explore an improvement to a deep RL algorithm, or implement a novel application of deep RL. 
+
+{\bf Topics:}
+
+{\it Part 1: Classical Topics}
+\begin{itemize}
+    \item[] Week 1: Multi-Armed Bandits
+        \begin{itemize}
+            \item Sutton and Barto, Chs. 1, 2
+        \end{itemize}
+    \item[] Week 2. MDPs and Dynamic Programming
+        \begin{itemize}
+            \item Sutton and Barto, Chs. 3, 4
+        \end{itemize}
+    \item[] Week 3. TD Learning
+        \begin{itemize}
+            \item Sutton and Barto, Chs. 5 (skim), 6
+        \end{itemize}
+    \item[] Week 4. On-policy prediction 
+        \begin{itemize}
+            \item Sutton and Barto, Ch. 9
+        \end{itemize}
+    \item[] Week 5. On-policy control
+        \begin{itemize}
+            \item Sutton and Barto, Ch. 10
+        \end{itemize} 
+    \item[] Week 6. RL and the Brain. 
+        \begin{itemize}
+            \item Sutton and Barto, Chs. 14, 15
+            \item \cite{niv}
+        \end{itemize}
+    \item[] Week 7. RL and Game Theory
+        \begin{itemize}
+            \item TBD
+        \end{itemize}
+         
+\end{itemize}
+{\it Part 2: Research Topics}
+\begin{itemize}
+    \item[] Week 8. Deep RL Basics
+        \begin{itemize}
+            \item Policy Gradient, PPO, SAC, DQN: \cite{achiam}
+        \end{itemize}
+        
+    \item[] Weeks 9 and 10. Game Playing
+    \begin{itemize}
+        \item Board games: \cite{silver}
+        \item Poker: \cite{brown}
+        \item Atari: \cite{badia}
+    \item real-time strategy: \cite{berner}, \cite{vinyals}
+    \end{itemize}
+    \item[] Week 11. RL for discrete optimization
+        \begin{itemize}
+            \item \cite{wagner, roy, fawzi}
+        \end{itemize} 
+    \item[] Week 12. RL from Human Feedback (RLHF)
+        \begin{itemize}
+            \item RLHF algorithm: \cite{christiano}
+            \item NLP applications: \cite{stiennon, ouyang}
+        \end{itemize}
+        
+\end{itemize}
+
+\bibliographystyle{alpha}
+\bibliography{refs}
+
+
+\end{document}
